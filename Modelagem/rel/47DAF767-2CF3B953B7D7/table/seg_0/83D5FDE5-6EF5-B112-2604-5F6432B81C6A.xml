@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83D5FDE5-6EF5-B112-2604-5F6432B81C6A" name="TB_LOGIN_USUARIO">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:18:07 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USUARIO" id="2AC5B67C-5929-0D5F-C805-CCAF8902B56F">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:19:03 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A711985-2871-D194-A9A9-C7939AE12769" referredColumn="F23745BA-17D6-E860-0049-029E9BAFAE42"/>
+</associations>
+</Column>
+<Column name="LOGIN_USUARIO" id="26EBC3A8-9EF1-F543-F82C-545D9254B914">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:18:45 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SENHA_USUARIO" id="FD7E5710-482E-075E-F27D-6175A3E61875">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:18:45 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD958AB5-A8D4-B190-4A20-9B861A452B3D" name="TB_LOGIN_USUARIO_FK">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:19:03 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AC5B67C-5929-0D5F-C805-CCAF8902B56F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

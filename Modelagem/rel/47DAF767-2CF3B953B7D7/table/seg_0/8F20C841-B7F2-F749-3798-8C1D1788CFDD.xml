@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F20C841-B7F2-F749-3798-8C1D1788CFDD" name="TB_MATERIA">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:12:01 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DICA" id="5FB33234-E4AA-2260-B10E-8D48E42CF23E">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:13:02 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="4D907712-0779-01C3-E464-70FB848293EE">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:21:21 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8621877B-8395-5BA2-E262-B67DB365828D" referredColumn="F23745BA-17D6-E860-0049-029E9BAFAE42"/>
+</associations>
+</Column>
+<Column name="TITULO_DICA" id="4036468A-12CA-8D6A-2A63-67FBB1386666">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:13:02 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEXTO_DICA" id="46A9C264-CED9-6931-1549-D76AD9500DC4">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:13:02 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>MAX</dataTypeSize>
+<ownDataTypeParameters>MAX,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATIVO" id="DD3CA6A3-7C0B-E83D-428D-A20483E40A3D">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:22:56 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CRIACAO" id="3121E516-34D0-633A-1FC8-B0F25B567DAF">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:13:46 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_UPDATE" id="7BAD82B1-F0F6-2F74-97C5-8D8B38CBCE87">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:14:20 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89BD6FAF-A6C9-7BD1-3411-66205721DE4B" name="TB_DICAS_PK">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:13:02 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FB33234-E4AA-2260-B10E-8D48E42CF23E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1D7C615-E645-8435-14B8-AEB17317A2C9" name="TB_MATERIA_FK">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:21:21 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D907712-0779-01C3-E464-70FB848293EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

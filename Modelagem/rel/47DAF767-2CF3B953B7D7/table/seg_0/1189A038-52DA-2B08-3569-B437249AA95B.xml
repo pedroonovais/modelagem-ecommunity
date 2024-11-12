@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1189A038-52DA-2B08-3569-B437249AA95B" name="TB_CONTATO_USUARIO">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:16:03 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USUARIO" id="79FBC3AA-99B2-9BA3-BEA7-D5336739054C">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:16:54 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC19C496-75A3-FBD9-B10D-C28128BC24F5" referredColumn="F23745BA-17D6-E860-0049-029E9BAFAE42"/>
+</associations>
+</Column>
+<Column name="TELEFONE_USUARIO" id="87557F5A-A00A-8BF4-D06E-E96A79EAAD21">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:16:33 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A540192E-DA60-70C6-F8E8-6DC0DDE7B327" name="TB_CONTATO_USUARIO_FK">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 22:16:54 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79FBC3AA-99B2-9BA3-BEA7-D5336739054C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
