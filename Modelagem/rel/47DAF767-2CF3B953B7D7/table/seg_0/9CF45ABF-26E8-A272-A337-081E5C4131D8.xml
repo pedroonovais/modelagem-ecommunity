@@ -90,6 +90,30 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="LATITULDE_LOCAL" id="7B91A031-B9E0-F8C1-8515-F6E264B8A20D">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 23:49:40 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUDE_LOCAL" id="CE898028-218B-CFDF-FC58-8DE1BDDCF567">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 23:49:40 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="7CB4CB04-985D-FDFB-32A8-09AEA1CBAC0C" name="TB_LOCAIS_PK">

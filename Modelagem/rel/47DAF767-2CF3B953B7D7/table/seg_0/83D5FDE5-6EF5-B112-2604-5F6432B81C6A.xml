@@ -48,6 +48,17 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42146C2C-BB4B-22DA-580F-917882E48E19" name="TB_LOGIN_USUARIO_PK">
+<createdBy>Pedro</createdBy>
+<createdTime>2024-11-12 23:48:01 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AC5B67C-5929-0D5F-C805-CCAF8902B56F"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="BD958AB5-A8D4-B190-4A20-9B861A452B3D" name="TB_LOGIN_USUARIO_FK">
 <createdBy>Pedro</createdBy>
 <createdTime>2024-11-12 22:19:03 UTC</createdTime>
